@@ -5,10 +5,9 @@ import torch
 """
 GPU wrappers
 """
-
+device = 'mps'
 use_gpu = False
 gpu_id = 0
-device = None
 
 distributed = False
 dist_rank = 0
